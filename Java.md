@@ -1,0 +1,6 @@
+1. Program to find leap year 2.Program to find difference of two dates without using inbuilt functions >> [Gist](https://gist.github.com/itsZed0/f95a438f53b2248de41d0cfd56810ed8)
+
+
+3. Program to generate unique random number - O(n) in worst case and no extra space, can be done in constant time, will upload the solution later. >> [Gist](https://gist.github.com/itsZed0/12b50bb51f357817a443ac057e4c9147)
+
+4. Create a BST, inorder traversal for BST, delete a a given node in BST >> [Gist](https://gist.github.com/itsZed0/15bc27e3af252ab78fd4b5110ac9020d)
