@@ -4,3 +4,5 @@
 3. Program to generate unique random number - O(n) in worst case and no extra space, can be done in constant time, will upload the solution later. >> [Gist](https://gist.github.com/itsZed0/12b50bb51f357817a443ac057e4c9147)
 
 4. Create a BST, inorder traversal for BST, delete a a given node in BST >> [Gist](https://gist.github.com/itsZed0/15bc27e3af252ab78fd4b5110ac9020d)
+
+5. Given two strings find if it is anagram or not without sorting >> [Gist](https://gist.github.com/itsZed0/6f5d94cb0ecd855c2207d2119bf32a90)
