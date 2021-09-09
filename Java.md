@@ -8,3 +8,5 @@
 4. Given two strings find if it is anagram or not without sorting >> [Gist](https://gist.github.com/itsZed0/6f5d94cb0ecd855c2207d2119bf32a90)
 
 5. O(1) complexity for each poll for problem 2. above >> [Gist](https://gist.github.com/itsZed0/044159b0352fb637b915f6b84bbfcbda)
+
+6. Rotate array by d elements >> [Gist](https://gist.github.com/itsZed0/93aa4ebbd94e36e7f69b9f05204e8783.js)
