@@ -13,3 +13,5 @@
 7. Rotate array by d elements (Method 2 - Rotate) >> [Gist](https://gist.github.com/itsZed0/0d036cc07c58f08d0a0eda3f65d7979d)
 
 8. Given sorted roated array find the index of element to search (Modified binary search) >> [Gist](https://gist.github.com/itsZed0/69c6172bd2f4336dc979a051a3fda6f0)
+
+9. Reverse array using recursion >> [Gist](https://gist.github.com/itsZed0/3cf0e59b96014ce387888b5f10f1bcfe)
