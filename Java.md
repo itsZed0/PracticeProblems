@@ -19,3 +19,5 @@
 10. Arrange numbers to form max number >> [Gist](https://gist.github.com/itsZed0/d88d1958e45df877745b8ae3bebefede)
 
 11. Maximum combination sum for two array >>[Gist](https://gist.github.com/itsZed0/8c033d70dcd986a8aa9ce188836b8afd)
+
+12. Kth smallest element in array >>[Gist](https://gist.github.com/itsZed0/dcd4d454c87cb7e31950985cb928e853)
