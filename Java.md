@@ -21,3 +21,5 @@
 11. Maximum combination sum for two array >>[Gist](https://gist.github.com/itsZed0/8c033d70dcd986a8aa9ce188836b8afd)
 
 12. Kth smallest element in array >>[Gist](https://gist.github.com/itsZed0/dcd4d454c87cb7e31950985cb928e853)
+
+13. Maximum sum subarray >> [Gist](https://gist.github.com/itsZed0/ea43c9e1bf055f375783d28ad3ab5fba)
