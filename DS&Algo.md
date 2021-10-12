@@ -25,3 +25,5 @@
 13. Maximum sum subarray >> [Gist](https://gist.github.com/itsZed0/ea43c9e1bf055f375783d28ad3ab5fba)
 
 14. Miminum jump to reach end of array >> [Gist](https://gist.github.com/itsZed0/ade0f161055191c5d119ea0217ffee4d)
+
+15. Longest span sum >> [Gist](https://gist.github.com/itsZed0/0dddd6af249b8fa0ce9900f07c1dd06f)
