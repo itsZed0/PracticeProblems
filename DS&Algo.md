@@ -27,3 +27,5 @@
 14. Miminum jump to reach end of array >> [Gist](https://gist.github.com/itsZed0/ade0f161055191c5d119ea0217ffee4d)
 
 15. Longest span sum >> [Gist](https://gist.github.com/itsZed0/0dddd6af249b8fa0ce9900f07c1dd06f)
+
+16. Merge two sorted linked list >> [Gist](https://gist.github.com/itsZed0/72df83b1d7087d7df007cb880af69798)
