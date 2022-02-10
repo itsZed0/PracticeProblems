@@ -29,3 +29,5 @@
 15. Longest span sum >> [Gist](https://gist.github.com/itsZed0/0dddd6af249b8fa0ce9900f07c1dd06f)
 
 16. Merge two sorted linked list >> [Gist](https://gist.github.com/itsZed0/72df83b1d7087d7df007cb880af69798)
+
+17. Find median in stream of integers >> [Gist](https://gist.github.com/itsZed0/4486b7f891162ac6b247f0597c5964fe)
