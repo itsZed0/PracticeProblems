@@ -33,3 +33,5 @@
 17. Find median in stream of integers >> [Gist](https://gist.github.com/itsZed0/4486b7f891162ac6b247f0597c5964fe)
 
 18. Minimum swaps required to sort an array >> [Gist](https://gist.github.com/itsZed0/7d1e8b48f5c343fd8f150ebb98449bad)
+
+19. Check if linked list is palindrome >> [Gist](https://gist.github.com/itsZed0/76bf579bc4e48a339fa464ae01e01375)
