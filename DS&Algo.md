@@ -35,3 +35,5 @@
 18. Minimum swaps required to sort an array >> [Gist](https://gist.github.com/itsZed0/7d1e8b48f5c343fd8f150ebb98449bad)
 
 19. Check if linked list is palindrome >> [Gist](https://gist.github.com/itsZed0/76bf579bc4e48a339fa464ae01e01375)
+
+20. Implement Queue using Stack >> [Gist](https://gist.github.com/itsZed0/3f0faea935662d7909c9c1b4e70c51d4)
