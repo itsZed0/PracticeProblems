@@ -37,3 +37,5 @@
 19. Check if linked list is palindrome >> [Gist](https://gist.github.com/itsZed0/76bf579bc4e48a339fa464ae01e01375)
 
 20. Implement Queue using Stack >> [Gist](https://gist.github.com/itsZed0/3f0faea935662d7909c9c1b4e70c51d4)
+
+21. Implement n stack in a singel array >> [Gist](https://gist.github.com/itsZed0/1df505527a693fdb28d5b39b3501546b)
