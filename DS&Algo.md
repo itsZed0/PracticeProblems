@@ -39,3 +39,5 @@
 20. Implement Queue using Stack >> [Gist](https://gist.github.com/itsZed0/3f0faea935662d7909c9c1b4e70c51d4)
 
 21. Implement n stack in a singel array >> [Gist](https://gist.github.com/itsZed0/1df505527a693fdb28d5b39b3501546b)
+
+22. Find maximum element of all subarray of size k  >> [Gist](https://gist.github.com/itsZed0/04f2b2351013dda5cb198b0bb99f0fb8)
