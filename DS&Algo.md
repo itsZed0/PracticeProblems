@@ -41,3 +41,6 @@
 21. Implement n stack in a singel array >> [Gist](https://gist.github.com/itsZed0/1df505527a693fdb28d5b39b3501546b)
 
 22. Find maximum element of all subarray of size k  >> [Gist](https://gist.github.com/itsZed0/04f2b2351013dda5cb198b0bb99f0fb8)
+
+23. Find mazimum of minimum of all subarrays>> [Gist](https://gist.github.com/itsZed0/064cd98ff5ff21efb5d6715274ebd235)
+
