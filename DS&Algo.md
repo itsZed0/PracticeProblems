@@ -44,3 +44,4 @@
 
 23. Find mazimum of minimum of all subarrays>> [Gist](https://gist.github.com/itsZed0/064cd98ff5ff21efb5d6715274ebd235)
 
+24. Print specific level order of perfect binary tree >> [Gist](https://gist.github.com/itsZed0/249f9cc06d770e474583cf2eb612f907)
