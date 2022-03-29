@@ -48,4 +48,4 @@
 
 25. Find height of the tree given parent array >> [Gist](https://gist.github.com/itsZed0/d923322e9d45e04401238664929b35a5)
 
-26. K maximum sub of two subarrays >> [Gist](https://gist.github.com/itsZed0/f096de18d34e689f34f563caac2203ef)
+26. K maximum sum pair of two subarrays >> [Gist](https://gist.github.com/itsZed0/f096de18d34e689f34f563caac2203ef)
