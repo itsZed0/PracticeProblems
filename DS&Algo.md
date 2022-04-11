@@ -51,3 +51,5 @@
 26. K maximum sum pair of two subarrays >> [Gist](https://gist.github.com/itsZed0/f096de18d34e689f34f563caac2203ef)
 
 27. BFS traversal >> [Gist](https://gist.github.com/itsZed0/c3f6e69844603da117aa88dbae26f3fa)
+
+28. Find shortest distance from source to destination for Knight >> [Gist](https://gist.github.com/itsZed0/f00ac5fedfc8f846f5d318f3a74f81c5)
