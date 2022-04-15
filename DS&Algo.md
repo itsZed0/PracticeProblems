@@ -53,3 +53,5 @@
 27. BFS traversal >> [Gist](https://gist.github.com/itsZed0/c3f6e69844603da117aa88dbae26f3fa)
 
 28. Find shortest distance from source to destination for Knight >> [Gist](https://gist.github.com/itsZed0/f00ac5fedfc8f846f5d318f3a74f81c5)
+
+29. Largest boolean matrix using DFS >> [Gist](https://gist.github.com/itsZed0/3c8a757f9b8a055263c45dfb1e2ebcf4)
