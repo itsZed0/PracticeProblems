@@ -55,3 +55,5 @@
 28. Find shortest distance from source to destination for Knight >> [Gist](https://gist.github.com/itsZed0/f00ac5fedfc8f846f5d318f3a74f81c5)
 
 29. Largest boolean matrix using DFS >> [Gist](https://gist.github.com/itsZed0/3c8a757f9b8a055263c45dfb1e2ebcf4)
+
+30. Longest common sub sequence (DP) >> [Gist](https://gist.github.com/itsZed0/6d5e005a99c9f837863ad7d127ce8412)
