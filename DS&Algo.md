@@ -57,3 +57,5 @@
 29. Largest boolean matrix using DFS >> [Gist](https://gist.github.com/itsZed0/3c8a757f9b8a055263c45dfb1e2ebcf4)
 
 30. Longest common sub sequence (DP) >> [Gist](https://gist.github.com/itsZed0/6d5e005a99c9f837863ad7d127ce8412)
+
+31. Find the longest palindrome subsequence in a string >> [Gist](https://gist.github.com/itsZed0/8a5d1f7af1f0ce72f9c6fb17b27e49bd)
