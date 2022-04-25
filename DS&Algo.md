@@ -63,3 +63,5 @@
 32. Minimum points required to reach destination >> [Gist](https://gist.github.com/itsZed0/d77657d3f1c8c8e501b110c2cc28486e)
 
 33. Check if subset with given sum exists >> [Gist](https://gist.github.com/itsZed0/ff8408c365a13807461085c2593f1832)
+
+34. Coin change problem DP >> [Gist](https://gist.github.com/itsZed0/a33d4f6ec31b461b8c8a9dfcd5315daa)
