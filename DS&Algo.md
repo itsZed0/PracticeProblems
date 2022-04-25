@@ -61,3 +61,5 @@
 31. Find the longest palindrome subsequence in a string >> [Gist](https://gist.github.com/itsZed0/8a5d1f7af1f0ce72f9c6fb17b27e49bd)
 
 32. Minimum points required to reach destination >> [Gist](https://gist.github.com/itsZed0/d77657d3f1c8c8e501b110c2cc28486e)
+
+33. Check if subset with given sum exists >> [Gist](https://gist.github.com/itsZed0/ff8408c365a13807461085c2593f1832)
