@@ -67,3 +67,5 @@
 34. Coin change problem DP >> [Gist](https://gist.github.com/itsZed0/a33d4f6ec31b461b8c8a9dfcd5315daa)
 
 35. Amazon Online assessment >> [Gist](https://gist.github.com/itsZed0/6416920f67d9ba10167470a42ccd35b3)
+
+36. Amazon Online Assessmet  Q2 >> [Gist](https://gist.github.com/itsZed0/305d400d16895d884e64a7c8ff330e73)
