@@ -53,10 +53,54 @@ class SlidingWindow {
     private ConcurrentHashMap<String, Object> userIdObject = new ConcurrentHashMap<>();
 
     // #2: Better formula than #1
-    public boolean isLimitReached(String userId) throws InterruptedException {
+    public boolean isLimitReached(String userId) {
+        userIdObject.putIfAbsent(userId, new Object());
+        synchronized (userIdObject.get(userId)) {
+            long curSec = System.currentTimeMillis() / 1000;
+            WindowDetailsPair wD = windowDetailsMap.get(userId);
+            if (wD == null) {
+                WindowDetailsPair wDP = new WindowDetailsPair();
+                wDP.setCur(new WindowDetails(curSec, 1));
+                windowDetailsMap.put(userId, wDP);
+                return false;
+            } else {
 
-       //TODO
-       
+                long prevTime = wD.getCur().getTime();
+                long diff = curSec - prevTime; //81-40 = 41
+                if (diff < 60) {
+
+                    //40....80.81...140
+                    int prevCount = wD.getCur().getCount();
+
+                    long curTimeUsed = diff;
+
+                    double prevWindowTimeUsed = (windowLimitInSec - curTimeUsed) / (double)windowLimitInSec; //(60-41)/60 = .31
+                    long slideWindowCount = (long) (prevCount * (prevWindowTimeUsed) + 1);
+
+                    wD.getCur().incrementCount();
+                    wD.getCur().setTime(curSec);
+                    windowDetailsMap.put(userId, wD);
+
+                    if(slideWindowCount > maxLimit) {
+                        return true;
+                    } else {
+                        return false;
+                    }
+
+                } else {
+                    WindowDetails prev = wD.getCur();
+                    //wD.setPrev(prev);
+                    wD.setCur(new WindowDetails(curSec, 1));
+                    windowDetailsMap.put(userId, wD);
+
+                    if (wD.getCur().getCount() > maxLimit) {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                }
+            }
+        }
     }
     
     // #1: Improved the formula above in #2
