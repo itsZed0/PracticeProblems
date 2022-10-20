@@ -52,6 +52,35 @@ class SlidingWindow {
     private ConcurrentHashMap<String, WindowDetailsPair> windowDetailsMap = new ConcurrentHashMap<>();
     private ConcurrentHashMap<String, Object> userIdObject = new ConcurrentHashMap<>();
 
+    // #2: Better formula than #1
+    public boolean isLimitReached(String userId) throws InterruptedException {
+
+        userIdObject.putIfAbsent(userId, new Object());
+        Thread.sleep(1000);
+        synchronized(userIdObject.get(userId)) {
+            long curSec = System.currentTimeMillis()/1000;
+            long minSec = curSec - 60;
+            Queue<Long> log = userWindowMap.get(userId);
+            if(log==null || log.isEmpty()){
+                userWindowMap.put(userId, new LinkedList<Long>(Arrays.asList(curSec)));
+                return false;
+            } else {
+                log = userWindowMap.get(userId);
+                System.out.println(log);
+                while(log.peek() < minSec){
+                    log.poll();
+                }
+
+                log.add(curSec);
+
+                if(log.size() <= 4)
+                    return false;
+                else return true;
+            }
+
+        }
+    }
+    // #1: Improved the formula above in #2
     public boolean isLimitReached(String userId) {
         userIdObject.putIfAbsent(userId, new Object());
         synchronized (userIdObject.get(userId)) {
@@ -116,6 +145,10 @@ class WindowDetailsPair {
 
     public WindowDetails getCur() {
         return cur;
+    }
+    
+    public void setTime(long time) {
+       this.time = time;
     }
 
     public void setCur(WindowDetails cur) {
